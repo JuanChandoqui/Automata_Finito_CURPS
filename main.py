@@ -21,7 +21,7 @@ class Window(QMainWindow):
         status = selected_automaton.automaton_function(input_text)
 
         if(status):
-            self.label_status.setText('CURP ENCONTRADA')
+            self.label_status.setText('CURP VÁLIDA / CURP DISPONIBLE')
             self.label_status.setStyleSheet('background-color: green; color: white; font-size: 12px; font-weight: bold')
         else:
             self.label_status.setText('CURP INVÁLIDA!')

@@ -98,9 +98,9 @@ color: rgb(255, 255, 255);</string>
    <widget class="QLabel" name="label_status">
     <property name="geometry">
      <rect>
-      <x>340</x>
+      <x>300</x>
       <y>430</y>
-      <width>131</width>
+      <width>211</width>
       <height>21</height>
      </rect>
     </property>
